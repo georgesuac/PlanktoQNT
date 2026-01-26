@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "planktoqnt"
+version = "0.0.1"
+description = "PlanktoQNT is a modular  Python pipeline for quantitative analysis of plankton images from the Imaging FlowCytobot (IFCB) data. It transforms classified regions of interest (ROIs) into ecological metrics, including cell abundance, size structure, biovolume, and carbon biomass. PlanktoQNT provides reproducible outputs for statistical analysis, ecosystem modeling, and carbon cycling studies of aquatic systems."
+authors = [
+  { name = "Jorge L. Suarez-Caballero" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+requires-python = ">=3.11"
+
+
+[tool.ruff]
+line-length = 99
+src = ["src"]
+include = ["pyproject.toml", "src/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["planktoqnt"]
+force-sort-within-sections = true
+
