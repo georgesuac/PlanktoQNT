@@ -1,12 +1,13 @@
 # Data
 /references/
 /reports/
-/notebooks/
+/02_metadata/
 src/planktoqnt/config.py
-src/planktoqnt/dataset.py
-src/planktoqnt/features.py
-src/planktoqnt/plots.py
 Makefile
+/dev_notes/
+
+# Datasets
+*.db
 
 # Mac OS-specific storage files
 .DS_Store
@@ -163,6 +164,7 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.venv/
 env/
 venv/
 ENV/
