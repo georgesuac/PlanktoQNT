@@ -5,14 +5,32 @@
 src/planktoqnt/config.py
 Makefile
 /dev_notes/
+/RAW_data/
+FINAL_figs/
+*.tiff
+
+#Projects
+Projects/*
+
+#MATLAB Files
+.mltbx
+.cpp.mexmaca64
 
 # Datasets
 *.db
+
+#IFCB data
+*.adc
+*.hdr
+*.roi
 
 # Mac OS-specific storage files
 .DS_Store
 .vscode/
 .idea/
+
+#R files
+.Rhistory
 
 # vim
 *.swp
