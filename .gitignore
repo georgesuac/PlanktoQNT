@@ -1,13 +1,17 @@
 # Data
 /references/
 /reports/
-/02_metadata/
+/01_notebooks/*
+/02_metadata/*
 src/planktoqnt/config.py
-Makefile
 /dev_notes/
 /RAW_data/
 FINAL_figs/
 *.tiff
+/Projects/01_Microcosms_Ishigaki_2023/03_datasets/morphometry/
+/validate_steps/
+/docs/img/originals/
+
 
 #Projects
 Projects/*
@@ -18,6 +22,7 @@ Projects/*
 
 # Datasets
 *.db
+*.csv
 
 #IFCB data
 *.adc

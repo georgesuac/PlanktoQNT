@@ -1,8 +1,11 @@
 # PlanktoQNT
 
+![logo](docs/img/logo.webp)
 **Currently under development**
 
-PlanktoQNT is a modular Python pipeline for quantitative analysis of plankton images from the Imaging FlowCytobot (IFCB) data after classification with [PlanktoNET](https://github.com/ECBSU/PlanktoNET). It transforms classified regions of interest (ROIs) into ecological metrics, including cell abundance, size structure, biovolume, and carbon biomass. PlanktoQNT provides reproducible outputs for statistical analysis, ecosystem modeling, and carbon cycling studies of aquatic systems.
+PlanktoQNT is a modular Python pipeline for quantitative analysis of plankton images from the Imaging FlowCytobot (IFCB) data after classification with [PlanktoNET](https://github.com/ECBSU/PlanktoNET). PlanktoQNT transforms classified regions of interest (ROIs) into ecological metrics, including cell abundance, size structure, biovolume, and carbon biomass. PlanktoQNT provides reproducible outputs for statistical analysis, ecosystem modeling, and carbon cycling studies of aquatic systems.
+
+![workflow](docs/img/workflow.webp)
 
 The classified images should be stored in different folders, according to species/group.
 
